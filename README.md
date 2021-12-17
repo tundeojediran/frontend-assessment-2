@@ -1,4 +1,4 @@
-# frontend-assessment-2
+# frontend-assessment
 As part of our application process, we'd like to see what you can produce by giving you a take home assessment.
 
 # Test Specification
