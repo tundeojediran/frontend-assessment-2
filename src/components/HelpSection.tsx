@@ -1,24 +1,9 @@
 import { Disclosure } from '@headlessui/react';
-import React from 'react';
 import {
-    BookmarkAltIcon,
-    CalendarIcon,
-    ChartBarIcon,
-    CursorClickIcon,
-    CheckCircleIcon,
-    MenuIcon,
-    PhoneIcon,
-    PlayIcon,
-    RefreshIcon,
-    ShieldCheckIcon,
-    SupportIcon,
-    ViewGridIcon,
-    XIcon,
     PhoneOutgoingIcon,
     ShieldExclamationIcon,
     QuestionMarkCircleIcon,
     ChevronDownIcon,
-    ChevronUpIcon,
 } from '@heroicons/react/outline'
 
 
@@ -28,9 +13,6 @@ export default function HelpSection() {
 
         <div
             className='mt-10 bg-white rounded-md'
-        // style={{
-        //     backgroundImage: `url('https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg)`
-        // }}
         >
             <div className="w-full h-24 aspect-w-1 aspect-h-1 bg-gray-200 border-b-4 border-b-blue-600 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
                 <img
