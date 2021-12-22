@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Router } from 'react-router-dom';
+import routes from './routes/routes';
+import { history } from './utils/history'
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
+import { store, persist } from "./state/redux/store";
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>

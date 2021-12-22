@@ -1,0 +1,1 @@
+export const SAVE_BOOKING_DETAILS = 'save_booking_details';
